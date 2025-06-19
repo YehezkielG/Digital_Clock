@@ -1,6 +1,16 @@
+body{
+    margin: 0; padding: 0;
+    background: #282828;
+    height: 100svh;
+    font-family: 'roboto';
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
 .clock{
     box-shadow: 0 0 20px #3b74b1;
-    background-color: #4c96eb ;
+    background-color: #4c96eb;
     width: 400px;
     border-radius: 10px;
     height: 200px;
@@ -22,16 +32,10 @@
 .clock p:nth-child(2){
     font-size: 55px;
 }
-.container{
-    background: #282828;
-    padding: 25px;
-    padding-bottom: 45px;
-    font-family: 'roboto';
-}
 .container h1{
     font-family: 'Gabarito';
+    margin-bottom: 5px;
     letter-spacing: 1px;
-    text-align: center;
     color: white;
 }
 .clock1{
@@ -58,7 +62,6 @@
         background: #282828;
         margin: 0px;
         padding: 0px;
-        height: 700px;
     }
     .clock{
         width: 90%;
